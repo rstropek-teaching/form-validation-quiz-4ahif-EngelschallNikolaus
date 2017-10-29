@@ -37,7 +37,7 @@ $('#lastName').blur(function () {
 $('#email').blur(function () {
     checkEmail();
 });
-$('#newsletter').blur(function () {
+$('#newsletter').on("click", function () {
     checkEmail();
 });
 function checkEmail() {
